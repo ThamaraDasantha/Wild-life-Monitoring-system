@@ -63,21 +63,8 @@ This project introduces a **solar-powered, real-time wildlife monitoring system*
 
 ---
 
-## 🗂️ Folder Structure
-
-```
-wildlife-monitoring-system/
-├── firmware/         # STM32 and Pi firmware (CNN inference, sensor handling)
-├── mobile-app/       # Android/iOS app codebase (React Native / Java / Kotlin)
-├── pcb/              # Circuit schematics and board designs
-├── docs/             # System diagrams, use-case flows, presentation material
-├── models/           # CNN model files and training data references
-└── README.md         # Project overview (this file)
-```
----
-
 ## 👥 Authors & Acknowledgments
 
-- **Thamara Banneheka**, **K.A.I.I.V. Abhayarathne**, **W.K.D.B. Wanniarachchi**  
+- **Thamara Banneheka**, ** Isuru Abhayarathne**, **Dinith Wanniarachchi**  
   Department of Electrical and Electronic Engineering, SLIIT  
 - Supervised by: *Shehani Jayasinghe, Dr. Eranga Wijesinghe, Dr. Nushara Wedasingha*
