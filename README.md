@@ -32,13 +32,15 @@ This project introduces a **solar-powered, real-time wildlife monitoring system*
 ## 📐 System Architecture
 
 ```
-[Camera + Motion Sensor] ──> [STM32 / Raspberry Pi]
-         |                         |
-     CNN Inference           LoRa Transmission
-         ↓                         ↓
- [Local Decision Making]     [Central Hub (LoRa)]
-         ↓                         ↓
-   [Bluetooth / App]      [Database + App Backend]
+[Motion Sensor] ──> [STM32] ──> [Raspberry Pi] ──> CNN [Local Decision Making]
+                                   ↓
+                            LoRa Transmission
+                                   ↓
+                            [Central Hub] ──>[Database]
+                                   ↓
+                            [Vehical Module (Lora to Blutooth Interfacing)]
+                                   ↓
+                             [App Backend]
 ```
 
 ---
