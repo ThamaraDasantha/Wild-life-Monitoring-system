@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homepage"
+        android:enabled="true"
+        android:icon="@drawable/homeicon"
+        android:title="@string/home"/>
+    <item
+        android:id="@+id/preferncespage"
+        android:enabled="true"
+        android:icon="@drawable/preficon"
+        android:title="@string/preferences"/>
+    <item
+        android:id="@+id/mappage"
+        android:enabled="true"
+        android:icon="@drawable/mapicon"
+        android:title="@string/map"/>
+    <item
+        android:id="@+id/notificationpage"
+        android:enabled="true"
+        android:icon="@drawable/nortiicon"
+        android:title="@string/notification"/>
+    <item
+        android:id="@+id/settingspage"
+        android:enabled="true"
+        android:icon="@drawable/settingsicon"
+        android:title="@string/settings"/>
+</menu>

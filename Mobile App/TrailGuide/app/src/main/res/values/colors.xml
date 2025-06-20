@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Bg_green">#EBFFE9</color>
+    <color name="dark_Green">#204A10</color>
+    <color name="light_Green">#31DA29</color>
+    <color name="navbar_Green">#6B2ED200</color>
+    <color name="lumince_Green">#8872FC00</color>
+    <color name="basic_Col">#51FFCC00</color>
+
+</resources>
